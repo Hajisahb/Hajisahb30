@@ -51,9 +51,9 @@ try:
     os.makedirs('/sdcard/Hajisahb302')
 except:
     pass
-sys.stdout.write('\x1b]2;JHONNY SINS\x07')
+sys.stdout.write('\x1b]2;Haji Sahb\x07')
 def M1():
-	net = random.choice(["Telenor","Jazz","Zong","Ufone","Fiber","Nepal Telecom","Vivo","H2O","Carlo RB","Spring"])
+	net = random.choice(["Telenor","Zong","Ufone","Fiber","Nepal Telecom","Vivo","H2O","Carlo RB","Spring"])
 	loc = random.choice(["en_US","en_GB","pt_BR","es_LA","en_PH","id_ID","es_MX"])
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
 	b = ";[FBAN/FB4A;FBAV/309.0.0.47.119;FBBV/281818498;FBDM/{density=2.625,width=1080,height=1794};FBLC/en_GB;FBRV/238430540;FBCR/Sky;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo 1801i;FBSV/{b};FBOP/1;FBCA/arm64-v8a:;]"
@@ -454,7 +454,7 @@ def getKey():
     n=re.findall("(\d\d)",myid)
     plat=platform.version()[2:][:8][::-1].upper()+platform.release()[3:][::-1].upper()+platform.version()[:2]
     xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
-    return "DJS-"+myid+xp
+    return "Hajisahb-"+myid+xp
 from datetime import datetime
 from datetime import timedelta
 date_today = datetime.now()
@@ -538,7 +538,7 @@ def subscription(message):
         Activate()
     line()
     uname = input(f'{G}  [{W}+{G}]{W} PUT YOUR NAME: ')
-    tsk = "Hello Fucker Sir! I Need To Use Your Premium Tools So Please Approve My Token-:)\n\nName: "+uname+" \nToken: "+key
+    tsk = "Hello Hajisahb Sir! I Need To Use Your Premium Tools So Please Approve My Token-:)\n\nName: "+uname+" \nToken: "+key
     subprocess.check_output(["am", "start", "https://api.whatsapp.com/send?phone=+923114132829&text="+ tsk]);time.sleep(2)
     Activate()
 try:menu()
